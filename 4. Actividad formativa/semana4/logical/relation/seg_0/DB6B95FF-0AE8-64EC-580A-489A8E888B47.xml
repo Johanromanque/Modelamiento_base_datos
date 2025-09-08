@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="DB6B95FF-0AE8-64EC-580A-489A8E888B47">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:28:03 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3EF58625-D67F-9D28-98FA-C184AC80C8DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA24EEB0-BE62-5F40-BB8C-20D3F85EE33B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="cantidad_idioma" id="A085BA8A-7D3E-92B2-6801-A243249D8771">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:35:57 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

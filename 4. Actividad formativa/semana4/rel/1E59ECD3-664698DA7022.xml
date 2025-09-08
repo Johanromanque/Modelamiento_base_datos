@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="1E59ECD3-17AB-4EA5-3B77-664698DA7022" mainViewID="3652A6B6-1042-E1F7-A53E-6DA78A5CD356">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:14:32 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

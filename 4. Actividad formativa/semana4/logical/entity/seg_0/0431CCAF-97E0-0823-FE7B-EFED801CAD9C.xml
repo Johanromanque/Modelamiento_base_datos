@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0431CCAF-97E0-0823-FE7B-EFED801CAD9C" name="POSTULACION">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:16:38 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_postulacion" id="6ABFC56F-C3AA-1096-42D6-DFEBB5440DAA">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:16:51 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_postulacion" id="375A4B7E-1D34-7449-8DEB-210C548714DC">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:24:54 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pretencion_renta" id="548492A6-AD82-4D37-2A23-AA66B4B64065">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:25:14 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="8BF811C1-7FB6-7D48-659D-147C6C5BDE69">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:28:42 UTC</createdTime>
+<generatorID>2A65C8AE-F198-A4DC-27C0-76EA90B6E1BA</generatorID>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<referedAttribute>51D51539-A20C-AF6C-2991-0FE3D028513E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="ACC33E20-59E0-00B1-36B7-4D4B9AB209E7">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:29:13 UTC</createdTime>
+<generatorID>2A65C8AE-F198-A4DC-27C0-76EA90B6E1BA</generatorID>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<referedAttribute>6A7D9F69-3118-6377-DB12-068CE9807D28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="B22C5E77-B40C-6C00-7CE6-339C05012B46">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:29:34 UTC</createdTime>
+<generatorID>0FEB4272-56AD-8A4F-0040-94054C69A40E</generatorID>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<referedAttribute>74131A8F-49D9-03D2-127B-B5F6F4D158FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36455C53-E938-5DEC-D981-105BF51B2B77" name="POSTULACION PK">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:17:08 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6ABFC56F-C3AA-1096-42D6-DFEBB5440DAA</attributeRef>
+<attributeRef>8BF811C1-7FB6-7D48-659D-147C6C5BDE69</attributeRef>
+<attributeRef>ACC33E20-59E0-00B1-36B7-4D4B9AB209E7</attributeRef>
+<attributeRef>B22C5E77-B40C-6C00-7CE6-339C05012B46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

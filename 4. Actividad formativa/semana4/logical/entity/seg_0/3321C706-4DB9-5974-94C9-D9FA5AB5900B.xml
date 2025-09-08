@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3321C706-4DB9-5974-94C9-D9FA5AB5900B" name="EMPRESA">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:22:47 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empresa" id="74131A8F-49D9-03D2-127B-B5F6F4D158FE">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:22:52 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_empresa" id="1080B89C-93C1-BEC2-BFDC-B6D584B7E8A7">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:23:12 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="DBBB661F-671E-A50B-2C00-CFBB7C301795">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:23:35 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="5E449DE3-D71D-79F9-3FC0-EEF01842A52E">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:23:48 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="D0EF67FA-A9E5-7ECB-211D-5F5E0A566ECC">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:24:10 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_6" id="42EACDC1-2D77-5E09-7393-B3AAC15AB9A1">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:24:22 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="remuneracion_maxima" id="6EA9875F-D020-63F7-AE68-139C4416006D">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:24:26 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E625BBFA-1532-2633-1CFC-51FB6C02FAFB" name="EMPRESA PK">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:23:10 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74131A8F-49D9-03D2-127B-B5F6F4D158FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="E9B8CB67-5517-2FF0-5EB9-F62E16B52FDE">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:27:45 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2424D4B1-CE80-1F41-966E-E6A1BCFDE9D5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0431CCAF-97E0-0823-FE7B-EFED801CAD9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_obtencion" id="0EA9C370-640C-6933-754F-C773A8546D9C">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:34:59 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

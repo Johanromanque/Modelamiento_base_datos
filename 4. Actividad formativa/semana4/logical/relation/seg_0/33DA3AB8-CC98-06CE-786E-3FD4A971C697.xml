@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="33DA3AB8-CC98-06CE-786E-3FD4A971C697">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:29:58 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>07BD7547-FA28-FC39-4A41-CC38C9D396EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0431CCAF-97E0-0823-FE7B-EFED801CAD9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="grado_academico" id="5E656208-F115-1D3E-10EB-A1782CA3BD22">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:37:19 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

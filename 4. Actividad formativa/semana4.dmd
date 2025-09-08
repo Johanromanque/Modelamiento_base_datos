@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="semana4" id="4DFA7319-18E3-ECCC-9D56-9D7F8B1735F2" version="3.5">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:13:54 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4DFA7319-18E3-ECCC-9D56-9D7F8B1735F2</designId>
+</OSDM_Design>

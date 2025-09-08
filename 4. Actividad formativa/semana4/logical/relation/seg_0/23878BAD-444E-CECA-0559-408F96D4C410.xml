@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="23878BAD-444E-CECA-0559-408F96D4C410">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:29:13 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<sourcePk>C6248977-035D-5971-7054-079A710B896B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4F27616-C29A-0E7B-8CDD-AA5A3BA2E7C7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BB3B2FD-887A-6389-508C-8A573F8B9025</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

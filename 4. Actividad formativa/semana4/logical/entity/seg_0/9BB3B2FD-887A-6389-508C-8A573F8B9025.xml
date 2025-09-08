@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BB3B2FD-887A-6389-508C-8A573F8B9025" name="COMUNA">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:17:25 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="51D51539-A20C-AF6C-2991-0FE3D028513E">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:17:34 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_comuna" id="939EFC3E-3E2B-181D-E5EE-69A503E1F59B">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:26:21 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="6A7D9F69-3118-6377-DB12-068CE9807D28">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:29:13 UTC</createdTime>
+<generatorID>23878BAD-444E-CECA-0559-408F96D4C410</generatorID>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<referedAttribute>CDF39BDA-0165-EBD2-79CA-3253D5DCF8F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="366C1DCD-C0D6-58EB-64A4-E4507C1ABAC9" name="COMUNA PK">
+<createdBy>venom</createdBy>
+<createdTime>2025-09-07 23:17:51 UTC</createdTime>
+<ownerDesignName>semana4</ownerDesignName>
+<engineerTo>
+<item key="1E59ECD3-17AB-4EA5-3B77-664698DA7022" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51D51539-A20C-AF6C-2991-0FE3D028513E</attributeRef>
+<attributeRef>6A7D9F69-3118-6377-DB12-068CE9807D28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
