@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83948105-63C8-F95F-2470-5B3242A94E68" name="RESERVA">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:19:53 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_reserva" id="AE115D23-67C9-573D-693C-C971E6A85F76">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:20:07 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="815AC82A-E167-63A4-676F-89810BFC6965">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:20:36 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="E0446649-1536-8BCB-0921-3794512C160C">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:21:44 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_reserva" id="FC52E686-C9E3-552C-AC1D-3822B2045FCC">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:22:45 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="C370D7F6-71B9-2FA9-CECB-9D612C89E339">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 21:14:54 UTC</createdTime>
+<generatorID>353E1134-F10F-B063-16A8-87491CA5E264</generatorID>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<referedAttribute>05E68F2E-3454-C4C7-CA02-BC05870ABB07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vuelo" id="89C5598C-4280-3F9E-5AA0-F988765324AB">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 21:15:53 UTC</createdTime>
+<generatorID>910AEBA2-50A2-C034-93C9-FBE155A3FB83</generatorID>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<referedAttribute>97B6219E-3AA2-8553-DA35-03BBDCB1C14A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4C0693E-A88A-79D8-9393-0D5BE6D4100C" name="RESERVA PK">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:20:34 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE115D23-67C9-573D-693C-C971E6A85F76</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

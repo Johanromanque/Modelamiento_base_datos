@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A5448E9-691E-3E20-4638-5EE2FA0C1486" name="EMPLEADO">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 19:58:03 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="6BF36987-C570-FA97-19DF-BF2BC523DAFD">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:00:30 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="D73EDBFF-FD35-6758-2B7D-ED6CA62B9D5A">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:01:14 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="92DC49FE-1768-7DB6-1424-644EF4FC20F4">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:02:20 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="28C154CF-086E-73C1-64DD-79F98FE0E9A2">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:03:21 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="1B8FB515-0A97-B76D-74AB-612EE0CAC455">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:03:46 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="C43A8788-A536-2132-2769-485B4B7B8E59">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:04:31 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_movil" id="F9C06140-85FA-89DA-9403-406FF416585D">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:05:23 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="89FAF663-7E38-37F8-494B-B22F9BBC75E3">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:07:29 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut1" id="FC939EA0-D45F-B1A1-AC00-2495822EB55A">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 21:13:05 UTC</createdTime>
+<generatorID>F3A5D728-2431-2A1F-9402-B6479FBC6538</generatorID>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<referedAttribute>05E68F2E-3454-C4C7-CA02-BC05870ABB07</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D37A528C-8B0E-9A10-D218-176E859C7E53" name="EMPLEADO PK">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 20:01:10 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BF36987-C570-FA97-19DF-BF2BC523DAFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

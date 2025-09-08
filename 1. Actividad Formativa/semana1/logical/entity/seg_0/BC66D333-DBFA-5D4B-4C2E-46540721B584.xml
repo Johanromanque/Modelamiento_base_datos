@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC66D333-DBFA-5D4B-4C2E-46540721B584" name="VUELO">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 14:39:48 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_vuelo" id="97B6219E-3AA2-8553-DA35-03BBDCB1C14A">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 14:40:03 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="5CCF6971-578D-871E-4A03-2D281877C4E3">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 19:55:44 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="5B0AD615-CD79-7E7E-5515-B1C1A0AF95D6">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 19:56:16 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida" id="E8F0F5ED-EE02-1698-FAE4-B46A10C2D731">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 19:56:36 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="F1803804-AE5A-0E13-4F25-28CFFD843644">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 21:17:02 UTC</createdTime>
+<generatorID>7195A060-2ACC-F293-B255-5773D7DC03C2</generatorID>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<referedAttribute>6BF36987-C570-FA97-19DF-BF2BC523DAFD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C4566BA-35DE-BDC8-2688-09990A237FA8" name="VUELO PK">
+<createdBy>venom</createdBy>
+<createdTime>2025-08-17 19:57:30 UTC</createdTime>
+<ownerDesignName>semana1</ownerDesignName>
+<engineerTo>
+<item key="C3EF4408-3353-FFA6-2545-DA7EF3D2AE83" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97B6219E-3AA2-8553-DA35-03BBDCB1C14A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
